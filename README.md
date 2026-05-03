@@ -30,29 +30,6 @@
 
 *TC = `tool-calling` strategy (the function-calling strategy reported in the paper)
 
-## Setup
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/sierra-research/tau-bench && cd ./tau-bench
-```
-
-2. Install from source (which also installs required packages):
-
-```bash
-pip install -e .
-```
-
-3. Set up your OpenAI / Anthropic / Google / Mistral / AnyScale API keys as environment variables.
-
-```bash
-OPENAI_API_KEY=...
-ANTHROPIC_API_KEY=...
-GOOGLE_API_KEY=...
-MISTRAL_API_KEY=...
-```
-
 ## Run
 
 Run a tool-calling agent on the τ-retail environment:

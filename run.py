@@ -10,7 +10,7 @@ from tau_bench.envs.user import UserStrategy
 def parse_args() -> RunConfig:
     parser = argparse.ArgumentParser()
     parser.add_argument("--num-trials", type=int, default=1)
-    parser.add_argument("--env", type=str, choices=["hotel", "healthcare"], default="hotel")
+    parser.add_argument("--env", type=str, choices=["hotel"], default="hotel")
     parser.add_argument(
         "--model",
         type=str,
